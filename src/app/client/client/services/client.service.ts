@@ -19,11 +19,27 @@ export class ClientService {
 
   constructor(private http: HttpClient) { }
 
+
+
+  // getAllAds(): Observable<any> {
+  //   const url = `${this.get_all_ads_url}`;
+  //   const token = localStorage.getItem('token'); // or sessionStorage if that’s where you store it
+  //
+  //   const headers = new HttpHeaders({
+  //     Authorization: `Bearer ${token}`
+  //   });
+  //
+  //   return this.http.get<any>(url, { headers });
+  // }
+
   getAllAds(): Observable<any> {
     const url = `${this.get_all_ads_url}`;
-    return this.http.get<any>(url,  {
+    return this.http.get<any>(url,
+      {
       headers: this.createAuthorizationHeader()
-    })
+    }
+
+    )
   }
 
 
