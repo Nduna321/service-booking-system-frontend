@@ -1,7 +1,8 @@
 export const environment = {
-  production: true,
+  production: false,
 
-  baseHref: 'http://localhost:9002/api/v1',
+  baseHref: 'https://jubilant-achievement.up.railway.app/api/v1',
+  //baseHref: 'http://localhost:9002/api/v1',
   authenticate_url: '/authenticate',
   company_url: '/company',
 
