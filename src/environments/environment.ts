@@ -1,5 +1,5 @@
 export const environment = {
-  production: false,
+  production: true,
 
   baseHref: 'https://service-booking-system-backend-production-f591.up.railway.app/api/v1',
   //baseHref: 'http://localhost:9002/api/v1',
