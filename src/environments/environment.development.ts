@@ -2,7 +2,7 @@ export const environment = {
   production: true,
 
   //baseHref: 'http://localhost:9002/api/v1',
-  baseHref: 'https://jubilant-achievement.up.railway.app/api/v1',
+  baseHref: 'https://service-booking-system-backend-production-f591.up.railway.app/api/v1',
   authenticate_url: '/authenticate',
   company_url: '/company',
 
